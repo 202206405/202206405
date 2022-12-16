@@ -9,18 +9,123 @@
 .wrap{
     width: 100%;
     height: 100vh;
-    background-image: url('img/strlla.2.png');
+    background-image: url('img/strlla.png');
     background-size: cover;
     background-position: center;
     z-index: 1;
 }
-.bt1{
-    width: 10%;
-    background-image: url('img/00.png');
+
+.bt01{
+    width: 410px;
+    height: 87px;
+    position: absolute;
+    top: 220px;
+    right: 210px;
 }
 
-.div{
-     
+.bt02{
+    width: 410px;
+    height: 329px;
+    position: absolute;
+    z-index: 1;
+    top: 360px;
+    right: 200px;
 }
 
+/*--네비게이션--*/
+nav{
+    width: 100%;
+    padding-top: 80px;
+}
+
+ul{
+    width: 1420px;
+    height: 131px;
+    margin: 0 auto;
+    display : flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+}
+
+.fr01{
+    padding-top: 7px;
+    right: 8px;
+}
+.fr02{
+    padding-left: 122px;
+}
+.fr03{}
+.fr04{
+    padding-right: 200.7px;
+}
+
+/*--sub01--*/
+.s_b02{
+    width: 1900px;
+    height: 1988px;
+    background-image: url('img/sub.1_1.png');
     
+    background-repeat: no-repeat;
+    position: relative;
+    top: 190px;
+}
+
+.s_b03{
+    width: 100%;
+    height: 2590px;
+    position: relative;
+    top: 200px;
+    background-image: url('img/sub_01.01.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    /*--sub02--*/
+    .s_b04{
+    width: 100%;
+    height: 2000px;
+    position: relative;
+    top: 0px;
+    background-image: url('img/sub.2_1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    .s_b05{
+        width: 100%;
+        height: 2000px;
+        position: relative;
+        top: 200px;
+        background-image: url('img/sub.2_2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    .s_b06{
+        width: 100%;
+    height:2000px;
+    position: relative;
+    top: 200px;
+    background-image: url('img/sub.2_3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    /*--sub03--*/
+    .s_b07{
+    width: 100%;
+    height:2000px;
+    position: relative;
+    top: 150px;
+    background-image: url('img/sub_03_01.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+    .s_b08{
+        width: 100%;
+    height:2500px;
+    position: relative;
+    top: 150px;
+    background-image: url('img/sub_03_02.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    }
